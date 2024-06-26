@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.11",
+    "@strapi/plugin-cloud": "4.25.1",
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.25.1",
+    "@strapi/plugin-users-permissions": "4.25.1",
+    "@strapi/strapi": "4.25.1",
+    "better-sqlite3": "8.6.0",
+    "lodash.set": "^4.3.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "name": "mbsp-strapi-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "d2fb5f78-b4a7-4100-afba-d08583e7ac93",
+    "template": "corporate"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
